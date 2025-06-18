@@ -4,10 +4,12 @@ That is, delete the sense_hat.py file that is included in this bundle."""
 
 import time
 
+from sad import Sad
 from happy import Happy
+from angry import Angry
 
 def main():
-    smiley = Happy()
+    smiley = Angry()
 
     smiley.show()
 
